@@ -5,6 +5,13 @@ function verificaPalindromo(string) {
     return string.split("").reverse().join("") === string;
 }
 
-let myVar = null;
 
-console.log(verificaPalindromo("myVar"));
+//solução 2
+//
+function verificaPalindromo2(string) {
+    if (!string) return "string inexistente";
+
+    for(let i = 0; i < string.lenght; i++) {
+
+    }
+}
